@@ -17,7 +17,11 @@
     - only letters,digits,underscore and $ is allowed not space
     - only a letter,underscore or $ should be 1st character
     - reserved words cannot be variable names
-    
+
+
+    var: variable can be re-declared and updated global scope variable
+    let: variable cannot be re-declared but can be updated a block scope variable
+    const: variable cannot be re-declared or updated a block scope variable
 </body>
 <script>
     name="ramesh babu";
@@ -36,6 +40,15 @@
 
     bool=true;
     console.log(bool)
+
+    let name1='jay shree ram'
+    console.log(name1)
+
+    name1="shree ram"
+    console.log(name1)
+
+    const PI =3.14
+    console.log(PI)
 
     
 </script>
