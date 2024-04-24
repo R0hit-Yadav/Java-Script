@@ -22,6 +22,9 @@
     var: variable can be re-declared and updated global scope variable
     let: variable cannot be re-declared but can be updated a block scope variable
     const: variable cannot be re-declared or updated a block scope variable
+
+
+    {block}
 </body>
 <script>
     name="ramesh babu";
@@ -49,6 +52,12 @@
 
     const PI =3.14
     console.log(PI)
+
+    {
+        let a=5;
+        console.log(a);
+        // let a=6: error declared in new block 
+    }
 
     
 </script>
